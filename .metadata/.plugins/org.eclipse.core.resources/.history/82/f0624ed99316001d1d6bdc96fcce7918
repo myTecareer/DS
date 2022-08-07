@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "smart.building.airService";
+option java_outer_classname = "AirControlServiceImpl";
+
+package smart;
+
+service AirService {
+	//Client Streaming
+	rpc currAirQuality (stream CurrentAirRequest) returns (CurrentAirReply) {}
+
+	//Bi-Directional Streaming
+	rpc openCloseAirPurifier (stream AirPuriRequest) returns (stream AirPuriReply) {}
+
+ }
+
+message CurrentAirRequest{
+	string item = 1;
+}
+message CurrentAirReply{
+	string message = 1;
+}
+
+message AirPuriRequest{
+	string val = 1;
+	int32 figure = 2;
+}
+message AirPuriReply{
+	string message = 1;
+}
