@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "smart.building.envControl";
+option java_outer_classname = "BuildingEnvControlServiceImpl";
+
+package smart;
+service BuildingEnvControlService {
+	//Unary
+	rpc airConditionerChange (ChangeRequest) returns (ChangeReply) {}
+
+	//Unary
+	rpc humidityCheck (HumidityRequest) returns (HumidityReply) {}
+
+ }
+
+   message HumidityRequest{
+ 	string status = 1;
+ 	int32 figure = 2;
+ }
+
+  message HumidityReply{
+ 	string message = 1;
+ }
+
+  message ChangeRequest{
+ 	string status = 1;
+ }
+
+  message ChangeReply{
+ 	string message = 1;
+ }
