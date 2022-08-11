@@ -1,5 +1,6 @@
+//all airService file are generated here.
 package smart.building.airService;
-
+//required java packages for the program
 import java.io.IOException;
 import java.net.InetAddress;
 import java.util.ArrayList;
@@ -11,13 +12,13 @@ import io.grpc.Server;
 import io.grpc.ServerBuilder;
 import io.grpc.stub.StreamObserver;
 import smart.building.airService.AirServiceGrpc.AirServiceImplBase;
-
+//Extend the ImplBase imported class here. It is an Interface file with required rpc methods
 public class SmartBuildingServer extends AirServiceImplBase{
 
 	public static void main(String[] args) {
-		
+		// The smartBuildingServer is the current file name/ class name. Using an instance of this class different methods could be invoked by the client.
 		SmartBuildingServer smartBuildingServer = new SmartBuildingServer();
-		
+		//register the service
 		smartBuildingServer.registerService();
 		
 		//this port number where server will be listen to
