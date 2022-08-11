@@ -1,7 +1,9 @@
-syntax = "proto3";
-
+syntax = "proto3";// Make sure to have proto3 for your proto files.
+// generate separate or multiple java file for each generated class.
 option java_multiple_files = true;
+// Package inside the src/main/java where generated classes will reside.
 option java_package = "smart.building.healthCheckService";
+// Class name of the wrapper class which represent this file.
 option java_outer_classname = "HealthCheckServiceImpl";
 
 package smart;
@@ -15,8 +17,7 @@ package smart;
 	rpc harmfulAirAlarm (AirAlarmRequest) returns (stream AirAlarmReply) {}
 
  }
-
-
+// define each variable in rpc method separately
 message AirAlarmRequest{
 	string item = 1;
 }
