@@ -10,6 +10,7 @@ package smart;
 	//Server Streaming
 	rpc buildingAirConditionCheck (BuildingAirRequest) returns (stream BuildingAirReply) {}
 
+
 	//Server Streaming
 	rpc harmfulAirAlarm (AirAlarmRequest) returns (stream AirAlarmReply) {}
 
