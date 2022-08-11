@@ -4,6 +4,10 @@
 package smart.building.airService;
 
 /**
+ * <pre>
+ * define each variable in rpc method separately
+ * </pre>
+ *
  * Protobuf type {@code smart.CurrentAirRequest}
  */
 public  final class CurrentAirRequest extends
@@ -271,6 +275,10 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
+   * <pre>
+   * define each variable in rpc method separately
+   * </pre>
+   *
    * Protobuf type {@code smart.CurrentAirRequest}
    */
   public static final class Builder extends

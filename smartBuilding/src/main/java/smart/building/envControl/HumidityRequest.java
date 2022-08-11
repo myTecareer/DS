@@ -4,6 +4,10 @@
 package smart.building.envControl;
 
 /**
+ * <pre>
+ * define each variable in rpc method separately
+ * </pre>
+ *
  * Protobuf type {@code smart.HumidityRequest}
  */
 public  final class HumidityRequest extends
@@ -297,6 +301,10 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
+   * <pre>
+   * define each variable in rpc method separately
+   * </pre>
+   *
    * Protobuf type {@code smart.HumidityRequest}
    */
   public static final class Builder extends
