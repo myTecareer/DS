@@ -50,19 +50,21 @@ public class SmartBuildingServer extends AirServiceImplBase{
 			System.out.println(e.getMessage());
 		}
 	}
-	
+	//rpc method 
+	//client streaming
 	public StreamObserver<CurrentAirRequest> currAirQuality(
 			StreamObserver<CurrentAirReply> responseObserver){
-		//get the value from the stream of requests of the client
-		return new StreamObserver<CurrentAirRequest> () {
+		// Retrieve the value from the stream of requests of the client. 
+			return new StreamObserver<CurrentAirRequest> () {
 
 			ArrayList<String> list = new ArrayList<>();
 			@Override
-			//get one at a time
-			public void onNext(CurrentAirRequest value) {
+			// For each message in the stream, get one stream at a time.
+				public void onNext(CurrentAirRequest value) {
 				// TODO Auto-generated method stub
-				//System.out.println("currAirQuality method START===server2");
+				// get value of client input for each message in the stream. 
 				System.out.println("receiving Air item: " +value.getItem());
+				//add them into the arraylist
 				list.add(value.getItem());
 				
 				
@@ -71,20 +73,20 @@ public class SmartBuildingServer extends AirServiceImplBase{
 			@Override
 			public void onError(Throwable t) {
 				// TODO Auto-generated method stub
-				
+				t.printStackTrace();
 			}
-
+			// Once the complete stream is received this logic will be executed.
 			@Override
 			public void onCompleted() {
 				// TODO Auto-generated method stub
-				//System.out.println("currAirQuality method START===server3");
 				System.out.println("receiving currAirQuality method completed \n");
 				String currAir = "Item: ";
 				for(String s: list) {
 					currAir += s ;
 				}
 				currAir = currAir +  " being monitored";
-				
+				// Preparing and sending the reply for the client. Here, response is build and with the value (currAir) computed by above logic.
+				 // Here, response is sent once the client is done with sending the stream.
 				CurrentAirReply reply = CurrentAirReply.newBuilder().setMessage(currAir ).build();
 				responseObserver.onNext(reply);
 				responseObserver.onCompleted();
@@ -92,14 +94,17 @@ public class SmartBuildingServer extends AirServiceImplBase{
 			
 		};//return statement, don't forget ";"
 	}
-	
+	//2nd rpc method
+	//Bi-Directional Streaming
 	public StreamObserver<AirPuriRequest> openCloseAirPurifier (
 			StreamObserver<AirPuriReply> responseObserver){
 				return new StreamObserver<AirPuriRequest>() {
-
+					// For each message in the stream, get one stream at a time.
 					@Override
 					public void onNext(AirPuriRequest value) {
 						// TODO Auto-generated method stub
+						// In bidirectional stream, both server and  client would be sending the stream of messages.
+						// Here, for each message in stream from client, server is sending back one response.
 						System.out.println("receiving openCloseAirPurifier method: " + value.getVal());
 						String pmCheck = value.getVal();
 						String msg = "";
@@ -112,6 +117,7 @@ public class SmartBuildingServer extends AirServiceImplBase{
 								
 							}
 						}
+					    // Preparing and sending the reply for the client. Here, response is build and with the value (input1.toString()) computed by above logic.
 						AirPuriReply reply = AirPuriReply.newBuilder().setMessage(msg).build();
 						
 						responseObserver.onNext(reply);
@@ -120,7 +126,7 @@ public class SmartBuildingServer extends AirServiceImplBase{
 					@Override
 					public void onError(Throwable t) {
 						// TODO Auto-generated method stub
-						
+						t.printStackTrace();
 					}
 
 					@Override
