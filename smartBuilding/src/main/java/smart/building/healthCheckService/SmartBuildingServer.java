@@ -1,5 +1,6 @@
+//all healthCheckService file are generated here.
 package smart.building.healthCheckService;
-
+//required java packages for the program
 import java.io.IOException;
 import java.net.InetAddress;
 import java.util.ArrayList;
@@ -12,17 +13,19 @@ import io.grpc.Server;
 import io.grpc.ServerBuilder;
 import io.grpc.stub.StreamObserver;
 import smart.building.healthCheckService.HealthCheckServiceGrpc.HealthCheckServiceImplBase;
-
+//Extend the ImplBase imported class here. It is an Interface file with required rpc methods
 public class SmartBuildingServer extends HealthCheckServiceImplBase{
 
 	public static void main(String[] args) {
-		SmartBuildingServer smartBuildingServer = new SmartBuildingServer();
-		
+		// The smartBuildingServer is the current file name/ class name. Using an instance of this class different methods could be invoked by the client.
+			SmartBuildingServer smartBuildingServer = new SmartBuildingServer();
+			//register the service
 		smartBuildingServer.registerService();
-		
+		//this port number where server will be listen to
 		int port = 50073;
 		
 		try {
+			//create a server	
 			Server server = ServerBuilder.forPort(port)
 					.addService(smartBuildingServer)
 					.build()
@@ -48,7 +51,8 @@ public class SmartBuildingServer extends HealthCheckServiceImplBase{
 			System.out.println(e.getMessage());
 		}
 	}
-	
+	//rpc method 
+	//Server Streaming
 	public void harmfulAirAlarm(AirAlarmRequest request,
 			StreamObserver<AirAlarmReply> responseObserver) {
 		System.out.println("receiving harmful Air check");
@@ -63,6 +67,8 @@ public class SmartBuildingServer extends HealthCheckServiceImplBase{
 			}
 		}
 		for(String s: harmfulList) {
+			// Preparing and sending the reply for the client. Here, response is build and with the value (s) computed by above logic.
+			 // Here, a stream of response is sent using the for loop.
 			responseObserver.onNext(AirAlarmReply.newBuilder().setMessage(s).build());
 		}
 		responseObserver.onCompleted();
@@ -88,7 +94,9 @@ public class SmartBuildingServer extends HealthCheckServiceImplBase{
 		}
 		
 		for(String s: msglist) {
-			responseObserver.onNext(BuildingAirReply.newBuilder().setMessage(s).build());
+			// Preparing and sending the reply for the client. Here, response is build and with the value (s) computed by above logic.
+			 // Here, a stream of response is sent using the for loop.
+		responseObserver.onNext(BuildingAirReply.newBuilder().setMessage(s).build());
 		}
 		
 		responseObserver.onCompleted();

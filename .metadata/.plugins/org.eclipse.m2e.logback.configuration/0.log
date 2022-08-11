@@ -2751,3 +2751,143 @@
 2022-08-11 20:52:29,921 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
 2022-08-11 20:52:29,925 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-08-11 20:52:29,925 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-11 21:09:05,694 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc version: 3.6.0
+2022-08-11 21:09:06,039 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc command: C:\Users\86186\AppData\Local\Temp\protocjar3706969014454718936\bin\protoc.exe
+2022-08-11 21:09:06,041 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Additional include types: C:\Users\86186\AppData\Local\Temp\protocjar7707727465624498002\include
+2022-08-11 21:09:06,119 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/any.proto
+2022-08-11 21:09:06,122 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/api.proto
+2022-08-11 21:09:06,123 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/compiler/plugin.proto
+2022-08-11 21:09:06,125 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/descriptor.proto
+2022-08-11 21:09:06,127 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/duration.proto
+2022-08-11 21:09:06,128 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/empty.proto
+2022-08-11 21:09:06,129 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/field_mask.proto
+2022-08-11 21:09:06,131 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/source_context.proto
+2022-08-11 21:09:06,133 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/struct.proto
+2022-08-11 21:09:06,134 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/timestamp.proto
+2022-08-11 21:09:06,135 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/type.proto
+2022-08-11 21:09:06,136 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/wrappers.proto
+2022-08-11 21:09:06,521 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Input directories:
+2022-08-11 21:09:06,521 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\resources
+2022-08-11 21:09:06,521 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Include directories:
+2022-08-11 21:09:06,522 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\86186\AppData\Local\Temp\protocjar7707727465624498002\include
+2022-08-11 21:09:06,522 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Output targets:
+2022-08-11 21:09:06,522 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     java: D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-08-11 21:09:06,522 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     grpc-java: D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-08-11 21:09:06,522 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Resolving artifact: io.grpc:protoc-gen-grpc-java:1.15.0, platform: windows-x86_64
+2022-08-11 21:09:06,532 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\resources\airService.proto
+2022-08-11 21:09:06,532 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\resources\envControl.proto
+2022-08-11 21:09:06,532 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\resources\healthCheckService.proto
+2022-08-11 21:09:06,533 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-08-11 21:09:06,534 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\resources\airService.proto
+2022-08-11 21:09:06,534 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\resources\envControl.proto
+2022-08-11 21:09:06,534 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\resources\healthCheckService.proto
+2022-08-11 21:09:06,534 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-08-11 21:09:06,535 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 21:09:06,537 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-08-11 21:09:06,539 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 21:09:06,539 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-11 21:12:50,679 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc version: 3.6.0
+2022-08-11 21:12:50,993 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc command: C:\Users\86186\AppData\Local\Temp\protocjar2584372701575406004\bin\protoc.exe
+2022-08-11 21:12:50,995 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Additional include types: C:\Users\86186\AppData\Local\Temp\protocjar3943240784990991636\include
+2022-08-11 21:12:51,059 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/any.proto
+2022-08-11 21:12:51,061 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/api.proto
+2022-08-11 21:12:51,062 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/compiler/plugin.proto
+2022-08-11 21:12:51,063 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/descriptor.proto
+2022-08-11 21:12:51,066 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/duration.proto
+2022-08-11 21:12:51,067 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/empty.proto
+2022-08-11 21:12:51,068 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/field_mask.proto
+2022-08-11 21:12:51,069 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/source_context.proto
+2022-08-11 21:12:51,070 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/struct.proto
+2022-08-11 21:12:51,071 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/timestamp.proto
+2022-08-11 21:12:51,072 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/type.proto
+2022-08-11 21:12:51,073 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/wrappers.proto
+2022-08-11 21:12:51,382 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Input directories:
+2022-08-11 21:12:51,382 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\resources
+2022-08-11 21:12:51,382 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Include directories:
+2022-08-11 21:12:51,382 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\86186\AppData\Local\Temp\protocjar3943240784990991636\include
+2022-08-11 21:12:51,382 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Output targets:
+2022-08-11 21:12:51,382 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     java: D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-08-11 21:12:51,382 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     grpc-java: D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-08-11 21:12:51,382 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Resolving artifact: io.grpc:protoc-gen-grpc-java:1.15.0, platform: windows-x86_64
+2022-08-11 21:12:51,391 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\resources\airService.proto
+2022-08-11 21:12:51,391 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\resources\envControl.proto
+2022-08-11 21:12:51,391 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\resources\healthCheckService.proto
+2022-08-11 21:12:51,391 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-08-11 21:12:51,392 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\resources\airService.proto
+2022-08-11 21:12:51,392 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\resources\envControl.proto
+2022-08-11 21:12:51,392 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\resources\healthCheckService.proto
+2022-08-11 21:12:51,392 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-08-11 21:12:51,393 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 21:12:51,394 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-08-11 21:12:51,396 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 21:12:51,396 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-11 21:15:24,944 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc version: 3.6.0
+2022-08-11 21:15:25,355 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc command: C:\Users\86186\AppData\Local\Temp\protocjar15782342809362732512\bin\protoc.exe
+2022-08-11 21:15:25,357 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Additional include types: C:\Users\86186\AppData\Local\Temp\protocjar17442333262214013691\include
+2022-08-11 21:15:25,434 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/any.proto
+2022-08-11 21:15:25,437 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/api.proto
+2022-08-11 21:15:25,438 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/compiler/plugin.proto
+2022-08-11 21:15:25,439 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/descriptor.proto
+2022-08-11 21:15:25,442 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/duration.proto
+2022-08-11 21:15:25,444 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/empty.proto
+2022-08-11 21:15:25,445 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/field_mask.proto
+2022-08-11 21:15:25,446 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/source_context.proto
+2022-08-11 21:15:25,447 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/struct.proto
+2022-08-11 21:15:25,448 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/timestamp.proto
+2022-08-11 21:15:25,449 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/type.proto
+2022-08-11 21:15:25,450 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/wrappers.proto
+2022-08-11 21:15:25,824 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Input directories:
+2022-08-11 21:15:25,825 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\resources
+2022-08-11 21:15:25,825 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Include directories:
+2022-08-11 21:15:25,825 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\86186\AppData\Local\Temp\protocjar17442333262214013691\include
+2022-08-11 21:15:25,825 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Output targets:
+2022-08-11 21:15:25,825 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     java: D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-08-11 21:15:25,825 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     grpc-java: D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-08-11 21:15:25,825 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Resolving artifact: io.grpc:protoc-gen-grpc-java:1.15.0, platform: windows-x86_64
+2022-08-11 21:15:25,833 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\resources\airService.proto
+2022-08-11 21:15:25,833 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\resources\envControl.proto
+2022-08-11 21:15:25,833 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\resources\healthCheckService.proto
+2022-08-11 21:15:25,833 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-08-11 21:15:25,834 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\resources\airService.proto
+2022-08-11 21:15:25,834 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\resources\envControl.proto
+2022-08-11 21:15:25,834 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\resources\healthCheckService.proto
+2022-08-11 21:15:25,834 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-08-11 21:15:25,836 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 21:15:25,836 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-08-11 21:15:25,838 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 21:15:25,838 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-11 21:16:15,543 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc version: 3.6.0
+2022-08-11 21:16:15,870 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc command: C:\Users\86186\AppData\Local\Temp\protocjar15398120216699820206\bin\protoc.exe
+2022-08-11 21:16:15,872 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Additional include types: C:\Users\86186\AppData\Local\Temp\protocjar3451466240574094941\include
+2022-08-11 21:16:15,930 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/any.proto
+2022-08-11 21:16:15,933 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/api.proto
+2022-08-11 21:16:15,934 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/compiler/plugin.proto
+2022-08-11 21:16:15,935 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/descriptor.proto
+2022-08-11 21:16:15,937 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/duration.proto
+2022-08-11 21:16:15,938 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/empty.proto
+2022-08-11 21:16:15,939 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/field_mask.proto
+2022-08-11 21:16:15,940 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/source_context.proto
+2022-08-11 21:16:15,941 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/struct.proto
+2022-08-11 21:16:15,942 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/timestamp.proto
+2022-08-11 21:16:15,943 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/type.proto
+2022-08-11 21:16:15,944 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/wrappers.proto
+2022-08-11 21:16:16,246 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Input directories:
+2022-08-11 21:16:16,246 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\resources
+2022-08-11 21:16:16,246 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Include directories:
+2022-08-11 21:16:16,246 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\86186\AppData\Local\Temp\protocjar3451466240574094941\include
+2022-08-11 21:16:16,246 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Output targets:
+2022-08-11 21:16:16,246 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     java: D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-08-11 21:16:16,246 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     grpc-java: D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-08-11 21:16:16,246 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Resolving artifact: io.grpc:protoc-gen-grpc-java:1.15.0, platform: windows-x86_64
+2022-08-11 21:16:16,253 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\resources\airService.proto
+2022-08-11 21:16:16,254 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\resources\envControl.proto
+2022-08-11 21:16:16,254 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\resources\healthCheckService.proto
+2022-08-11 21:16:16,254 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-08-11 21:16:16,255 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\resources\airService.proto
+2022-08-11 21:16:16,255 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\resources\envControl.proto
+2022-08-11 21:16:16,255 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed D:\OneDrive\OneDrive - National College of Ireland\backup\d\Distributed Systems\DS\smartBuilding\src\main\resources\healthCheckService.proto
+2022-08-11 21:16:16,255 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-08-11 21:16:16,256 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 21:16:16,257 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-08-11 21:16:16,260 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 21:16:16,260 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
